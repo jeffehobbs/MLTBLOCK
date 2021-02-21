@@ -1,6 +1,6 @@
 {
   "name": "MLTBLOCK",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Block content from specific users on mltshp.com",
   "homepage_url": "https://github.com/jeffehobbs/MLTBLOCK",
