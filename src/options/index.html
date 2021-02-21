@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>MLTBLOCK options</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="animate.min.css" rel="stylesheet">
+
+	<style>
+
+		#options-ui {
+			padding: 15px;
+		}
+
+		#saveButton {
+			font-weight: bold;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="options-ui" class="container animate__animated animate__fadeIn">
+		<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<form>
+					<div class="mb-3">
+						<label for="blockedUserNames" class="form-label">
+							<strong>
+								BLOCK USERNAMES:
+							</strong>
+						</label>
+						<textarea 
+							class="form-control" 
+							id="blockedUserNames" 
+							spellcheck="false" 
+							aria-describedby="blockedUserNamesHelp" 
+							rows="3">
+						</textarea>
+						<div id="blockedUserNamesHelp" class="form-text">
+							Enter usernames to block, separated by commas.
+						</div>
+					</div>
+					<div class="d-grid gap-2">
+						<a id="saveButton" class="btn btn-primary">
+							SAVE
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="options.js"></script>
+
+</body>
+</html>
